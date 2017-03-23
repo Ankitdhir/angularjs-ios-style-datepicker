@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>demo for IOS stye date picker</title>
+    <style type="text/css">
+    body {
+        background-color: #f0f3f3;
+    }
+    </style>
+    <script src="./jquery.min.js"></script>
+    <script src="./angular.min.js"></script>
+    <script src="./demoCtr.js"></script>
+    <script src='./datepickerDirective.js'></script>
+</head>
+
+<body ng-app="demoApp" ng-controller="demoCtr">
+    <div style="margin-top:50px;">
+        <iosdatepicker date='date' min-year='1970' max-year='2017'></iosdatepicker>
+        <div style="margin-top:50px;font-size:56px; text-align: center">{{date}}</div>
+    </div>
+</body>
+
+</html>
