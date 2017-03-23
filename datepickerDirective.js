@@ -355,7 +355,7 @@ angular.module('iosdatepicker', [])
                     var dd = ('0'+($('.day').WSlot('get')+1)).slice(-2);
                     var mm = ('0'+($('.month').WSlot('get')+1)).slice(-2);
                     var yyyy = $('.year').WSlot('getText');
-                    var todaystring = mm+'/'+dd+'/'+yyyy;
+                    var todaystring = yyyy+'-'+mm+'-'+dd;
                     $scope.date = new Date(todaystring);
                     $scope.$apply();
                 }
