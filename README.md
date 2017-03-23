@@ -6,7 +6,7 @@ A simple but powerful AngularJS directive that allows you to select date with IO
 
 To see a demo go here: https://ankitdhir.github.io/angularjs-ios-style-datepicker/
 
-###Library dependency
+### Library dependency
 * Angular
 * JQuery
 
