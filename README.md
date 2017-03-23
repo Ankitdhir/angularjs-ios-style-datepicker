@@ -27,7 +27,7 @@ Note: two-way data binding for $scope.date
 ### Description of attributes
 | Attribute        | Description           | Required | Example  |
 | :------------- |:-------------| :-----:| :-----|
-| date | Initial date for date picker with two way binding | Yes | $scope.date = new Date(); |
+| date | Initial date for date picker with two way binding | Yes | $scope.date = new Date(); in controller and use date as above |
 | min-year | Min Year which user can select | Yes | 1950 |
 | max-year | Max Year which user can select | Yes | 2018 |
 
